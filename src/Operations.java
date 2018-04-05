@@ -1,8 +1,9 @@
-import exception.InValidInputException;
+import Command.BaseCommand;
+import Command.ColorCommand;
+import exception.CanvasException;
 
 public interface Operations {
-  String[][] create() throws InValidInputException;
-  String[][] drawLine(int x1, int y1, int x2, int y2) throws InValidInputException;
-  String[][] drawRectangle(int x1, int y1, int x2, int y2) throws InValidInputException;
-  String[][] fillColour(int x, int y, String colour);
+  String[][] drawLine(BaseCommand baseCommand, Canvas canvas) throws CanvasException;
+  String[][] drawRectangle(BaseCommand baseCommand, Canvas canvas) throws CanvasException;
+  String[][] fillColour(ColorCommand colorCommand, Canvas canvas);
 }

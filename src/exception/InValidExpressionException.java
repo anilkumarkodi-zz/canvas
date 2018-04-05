@@ -1,4 +1,4 @@
 package exception;
 
-public class InValidExpressionException extends Throwable {
+public class InValidExpressionException  extends CanvasException {
 }

@@ -1,4 +1,6 @@
 import org.junit.Test;
+import validator.CommandValidator;
+
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -103,5 +105,4 @@ public class CommandValidatorTest {
     final boolean validExpression = commandValidator.isValidExpression("B 10 3 o");
     assertTrue(validExpression);
   }
-
 }

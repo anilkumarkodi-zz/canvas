@@ -1,4 +1,9 @@
+package validator;
+
 import java.util.regex.Pattern;
+
+
+import static Command.CommandType.*;
 
 public class CommandValidator {
 
@@ -8,11 +13,11 @@ public class CommandValidator {
   private String fillColourCommand = "^[B]{1} [0-9]{1,2} [0-9]{1,2} [a-z]{1}$";
 
   public boolean isValidCommand(String command) {
-    return command.startsWith(CommandType.C.name())
-            || command.startsWith(CommandType.L.name())
-            || command.startsWith(CommandType.R.name())
-            || command.startsWith(CommandType.B.name())
-            || command.startsWith(CommandType.Q.name());
+    return command.startsWith(C.name())
+            || command.startsWith(L.name())
+            || command.startsWith(R.name())
+            || command.startsWith(B.name())
+            || command.startsWith(Q.name());
   }
 
   public boolean isValidExpression(String command){

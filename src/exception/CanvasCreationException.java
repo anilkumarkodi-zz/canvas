@@ -1,6 +1,6 @@
 package exception;
 
-public class CanvasCreationException extends Throwable {
+public class CanvasCreationException extends CanvasException {
   private String message;
 
   public CanvasCreationException(String message) {

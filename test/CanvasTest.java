@@ -1,3 +1,5 @@
+import Command.BaseCommand;
+import Command.ColorCommand;
 import exception.InValidInputException;
 import org.junit.Test;
 
@@ -10,8 +12,8 @@ public class CanvasTest {
     int width = 3;
     int height = 3;
     final Canvas canvas = new Canvas(width, height);
-    final String[][] actualCanvas = canvas.create();
-    
+    final String[][] actualCanvas = canvas.getCanvasArea();
+
     final String[][] expectedCanvas = new String[width+2][height+2];
     expectedCanvas[0][0] = "-\t";
     expectedCanvas[0][1] = "-\t";
@@ -56,8 +58,7 @@ public class CanvasTest {
     int width = 20;
     int height = 4;
     final Canvas canvas = new Canvas(width, height);
-    canvas.create();
-    canvas.drawLine(1, 2, 12, 20);
+    canvas.drawLine(new BaseCommand(1, 2, 12, 20), canvas);
   }
 
 
@@ -66,8 +67,8 @@ public class CanvasTest {
     int width = 5;
     int height = 5;
     final Canvas canvas = new Canvas(width, height);
-    canvas.create();
-    canvas.drawLine(6, 2, 2, 20);
+    final BaseCommand lineBaseCommand = new BaseCommand(6, 2, 2, 20);
+    canvas.drawLine(lineBaseCommand, canvas);
   }
 
   @Test
@@ -75,8 +76,8 @@ public class CanvasTest {
     int width = 20;
     int height = 4;
     final Canvas canvas = new Canvas(width, height);
-    canvas.create();
-    final String[][] canvasArea = canvas.drawLine(1, 2, 6, 2);
+    canvas.drawLine(new BaseCommand(1, 2, 6, 2), canvas);
+    final String[][] canvasArea = canvas.getCanvasArea();
     assertEquals(canvasArea[2][0], "-\t");
     assertEquals(canvasArea[2][1], "*\t");
     assertEquals(canvasArea[2][2], "*\t");
@@ -92,8 +93,9 @@ public class CanvasTest {
     int width = 20;
     int height = 4;
     final Canvas canvas = new Canvas(width, height);
-    canvas.create();
-    final String[][] canvasArea = canvas.drawLine(6, 3, 6, 4);
+     BaseCommand baseCommand = new BaseCommand(6, 3, 6, 4);
+    canvas.drawLine(baseCommand, canvas);
+    final String[][] canvasArea = canvas.getCanvasArea();
     assertEquals(canvasArea[2][6], "\t");
     assertEquals(canvasArea[3][6], "*\t");
     assertEquals(canvasArea[4][6], "*\t");
@@ -106,8 +108,7 @@ public class CanvasTest {
     int width = 20;
     int height = 4;
     final Canvas canvas = new Canvas(width, height);
-    canvas.create();
-    canvas.drawRectangle(14, 3, 8, 1);
+    canvas.drawRectangle(new BaseCommand(14, 3, 8, 1), canvas);
   }
 
   @Test
@@ -115,8 +116,7 @@ public class CanvasTest {
     int width = 20;
     int height = 4;
     final Canvas canvas = new Canvas(width, height);
-    canvas.create();
-    final String[][] canvasArea = canvas.drawRectangle(14, 1, 18, 3);
+    final String[][] canvasArea = canvas.drawRectangle(new BaseCommand(14, 1, 18, 3), canvas);
     
     assertEquals(canvasArea[1][14], "*\t");
     assertEquals(canvasArea[2][14], "*\t");
@@ -141,9 +141,8 @@ public class CanvasTest {
     int width = 3;
     int height = 3;
     final Canvas canvas = new Canvas(width, height);
-    canvas.create();
-    canvas.drawRectangle(1, 1, 1, 3);
-    final String[][] canvasArea = canvas.fillColour(1, 3, "o\t");
+    canvas.drawRectangle(new BaseCommand(1, 1,1, 3), canvas);
+    final String[][] canvasArea = canvas.fillColour(new ColorCommand(1, 3, "o\t"), canvas);
     assertEquals(canvasArea[1][1], "*\t");
     assertEquals(canvasArea[1][2], "o\t");
     assertEquals(canvasArea[1][3], "o\t");
