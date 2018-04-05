@@ -20,13 +20,4 @@ public class CanvasControllerTest {
     canvasController.draw("L 1 2 6 2");
   }
 
-  @Test
-  public void shouldCallCreateCanvasForGivenCommandIsCreateCanvas() throws InValidExpressionException, CanvasCreationException, Exception, InValidInputException {
-//    final Canvas canvasMock = mock(Canvas.class);
-//    final String[][] strings = {};
-//    when(canvasMock.drawCanvas()).thenReturn(strings);
-//    final CanvasController canvasController = new CanvasController();
-//    canvasController.draw("C 10 10");
-//    verify(canvasMock.drawCanvas(), times(1));
-  }
 }
