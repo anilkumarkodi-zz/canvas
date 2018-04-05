@@ -8,11 +8,11 @@ public class CommandValidator {
   private String fillColourCommand = "^[B]{1} [0-9]{1,2} [0-9]{1,2} [a-z]{1}$";
 
   public boolean isValidCommand(String command) {
-    return command.startsWith("C")
-            || command.startsWith("L")
-            || command.startsWith("R")
-            || command.startsWith("B")
-            || command.startsWith("Q");
+    return command.startsWith(CommandType.C.name())
+            || command.startsWith(CommandType.L.name())
+            || command.startsWith(CommandType.R.name())
+            || command.startsWith(CommandType.B.name())
+            || command.startsWith(CommandType.Q.name());
   }
 
   public boolean isValidExpression(String command){

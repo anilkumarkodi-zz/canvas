@@ -23,6 +23,7 @@ public class Consumer {
       }
       try {
         canvasController.draw(command);
+
       } catch (InValidExpressionException e) {
         e.printStackTrace();
       } catch (CanvasCreationException e) {
