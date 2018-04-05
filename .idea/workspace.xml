@@ -82,14 +82,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DrawCanvas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DrawCanvas.java">
+      <file leaf-file-name="CanvasController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CanvasController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="-220">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandValidatorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/CommandValidatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="64" column="14" lean-forward="false" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,108 +114,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CanvasCreationException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exception/CanvasCreationException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-              <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Canvas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Canvas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="59" column="3" lean-forward="false" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CanvasTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/CanvasTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandValidatorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/CommandValidatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="102" column="59" lean-forward="false" selection-start-line="102" selection-start-column="59" selection-end-line="102" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawCanvasTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/DrawCanvasTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Command.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Command.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-              <folding>
-                <element signature="e#99#100#0" expanded="true" />
-                <element signature="e#139#140#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BufferedReader.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="387" column="18" lean-forward="false" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -588,7 +504,6 @@
         <option value="$PROJECT_DIR$/src/CanvasCommand.java" />
         <option value="$PROJECT_DIR$/src/CanvasCreationCommand.java" />
         <option value="$PROJECT_DIR$/src/CanvasFillColorCommand.java" />
-        <option value="$PROJECT_DIR$/src/Command.java" />
         <option value="$PROJECT_DIR$/src/exception/CanvasCreationException.java" />
         <option value="$PROJECT_DIR$/test/InputParserTest.java" />
         <option value="$PROJECT_DIR$/src/InputParser.java" />
@@ -596,11 +511,17 @@
         <option value="$PROJECT_DIR$/src/exception/InValidInput.java" />
         <option value="$PROJECT_DIR$/src/exception/InValidInputException.java" />
         <option value="$PROJECT_DIR$/src/Client.java" />
-        <option value="$PROJECT_DIR$/src/DrawCanvas.java" />
         <option value="$PROJECT_DIR$/src/CommandValidator.java" />
-        <option value="$PROJECT_DIR$/src/Canvas.java" />
         <option value="$PROJECT_DIR$/test/CanvasTest.java" />
         <option value="$PROJECT_DIR$/test/DrawCanvasTest.java" />
+        <option value="$PROJECT_DIR$/src/Command.java" />
+        <option value="$PROJECT_DIR$/src/ConsumerClient.java" />
+        <option value="$PROJECT_DIR$/src/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/DrawCanvas.java" />
+        <option value="$PROJECT_DIR$/src/CanvasController.java" />
+        <option value="$PROJECT_DIR$/test/CanvasControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/Operations.java" />
+        <option value="$PROJECT_DIR$/src/Canvas.java" />
       </list>
     </option>
   </component>
@@ -724,28 +645,7 @@
       <recent name="Command" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CanvasTest">
-    <configuration default="false" name="CanvasTest.shouldThrowExceptionWhenDrawLineFromTheGivenXOrYAxisAreNotSameOnCanvasArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="canvas" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CanvasTest" />
-      <option name="METHOD_NAME" value="shouldThrowExceptionWhenDrawLineFromTheGivenXOrYAxisAreNotSameOnCanvasArea" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CommandValidatorTest">
     <configuration default="false" name="CanvasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="canvas" />
@@ -767,30 +667,9 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CanvasTest.shouldThrowExceptionWhenDrawLineFromTheGiven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="canvas" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CanvasTest" />
-      <option name="METHOD_NAME" value="shouldThrowExceptionWhenDrawLineFromTheGiven" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Client" />
+      <option name="MAIN_CLASS_NAME" value="Consumer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -812,6 +691,48 @@
       <option name="MAIN_CLASS_NAME" value="CanvasTest" />
       <option name="METHOD_NAME" value="testShouldFillTheColour" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CanvasTest.shouldCreateCanvasForTheGivenHeightAndWidth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="canvas" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CanvasTest" />
+      <option name="METHOD_NAME" value="shouldCreateCanvasForTheGivenHeightAndWidth" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CommandValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="canvas" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CommandValidatorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -1450,19 +1371,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CanvasTest.shouldThrowExceptionWhenDrawLineFromTheGivenXOrYAxisAreNotSameOnCanvasArea" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CanvasTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CanvasTest.shouldThrowExceptionWhenDrawLineFromTheGiven" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Client" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CanvasTest.testShouldFillTheColour" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CanvasTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Consumer" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CanvasTest.testShouldFillTheColour" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CanvasTest.shouldCreateCanvasForTheGivenHeightAndWidth" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CommandValidatorTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CanvasTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CanvasTest.testShouldFillTheColour" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Client" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CanvasTest.shouldThrowExceptionWhenDrawLineFromTheGiven" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CanvasTest.shouldThrowExceptionWhenDrawLineFromTheGivenXOrYAxisAreNotSameOnCanvasArea" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CommandValidatorTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CanvasTest.shouldCreateCanvasForTheGivenHeightAndWidth" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CanvasTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CanvasTest.testShouldFillTheColour" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Consumer" />
       </list>
     </recent_temporary>
   </component>
@@ -1482,7 +1403,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522815708575</updated>
-      <workItem from="1522815712158" duration="43868000" />
+      <workItem from="1522815712158" duration="47112000" />
     </task>
     <servers />
   </component>
@@ -1490,14 +1411,11 @@
     <history-entry file="CanvasTest - 2018.04.05 at 16h 59m 36s.xml">
       <configuration name="CanvasTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CanvasTest_testShouldFillTheColour - 2018.04.05 at 16h 55m 24s.xml">
-      <configuration name="CanvasTest.testShouldFillTheColour" configurationId="JUnit" />
+    <history-entry file="CanvasTest - 2018.04.05 at 17h 47m 20s.xml">
+      <configuration name="CanvasTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CanvasTest_testShouldFillTheColour - 2018.04.05 at 16h 55m 58s.xml">
-      <configuration name="CanvasTest.testShouldFillTheColour" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CanvasTest_testShouldFillTheColour - 2018.04.05 at 16h 56m 36s.xml">
-      <configuration name="CanvasTest.testShouldFillTheColour" configurationId="JUnit" />
+    <history-entry file="CanvasTest_shouldCreateCanvasForTheGivenHeightAndWidth - 2018.04.05 at 17h 47m 58s.xml">
+      <configuration name="CanvasTest.shouldCreateCanvasForTheGivenHeightAndWidth" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CanvasTest_testShouldFillTheColour - 2018.04.05 at 16h 56m 55s.xml">
       <configuration name="CanvasTest.testShouldFillTheColour" configurationId="JUnit" />
@@ -1517,13 +1435,16 @@
     <history-entry file="CanvasTest_testShouldFillTheColour - 2018.04.05 at 16h 59m 16s.xml">
       <configuration name="CanvasTest.testShouldFillTheColour" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CommandValidatorTest - 2018.04.05 at 17h 48m 09s.xml">
+      <configuration name="CommandValidatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43868000" />
+    <option name="totallyTimeSpent" value="47112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1542,7 +1463,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Graph Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1571,25 +1492,25 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Client.java</url>
+          <url>file://$PROJECT_DIR$/src/Consumer.java</url>
           <line>20</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DrawCanvas.java</url>
+          <url>file://$PROJECT_DIR$/src/CanvasController.java</url>
           <line>12</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DrawCanvas.java</url>
+          <url>file://$PROJECT_DIR$/src/CanvasController.java</url>
           <line>36</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DrawCanvas.java</url>
+          <url>file://$PROJECT_DIR$/src/CanvasController.java</url>
           <line>22</line>
           <properties />
           <option name="timeStamp" value="14" />
@@ -1760,22 +1681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exception/InValidExpressionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="387" column="18" lean-forward="false" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ActualCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1804,35 +1709,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client.java">
+    <entry file="file://$PROJECT_DIR$/test/CanvasControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CanvasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommandValidator.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="251">
+          <caret line="387" column="18" lean-forward="false" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Canvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="59" column="3" lean-forward="false" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
+        <state relative-caret-position="260">
+          <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#create#0;class#Canvas#0" expanded="false" />
+            <element signature="method#drawLine#0;class#Canvas#0" expanded="false" />
+            <element signature="method#drawRectangle#0;class#Canvas#0" expanded="false" />
+            <element signature="method#fillColour#0;class#Canvas#0" expanded="false" />
+            <element signature="method#drawRows#0;class#Canvas#0" expanded="false" />
+            <element signature="method#drawColumnsForGivenRow#0;class#Canvas#0" expanded="false" />
+            <element signature="method#prepare#0;class#Canvas#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Operations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1850,20 +1785,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DrawCanvas.java">
+    <entry file="file://$PROJECT_DIR$/src/exception/InValidExpressionException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="40">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/CanvasTest.java">
+    <entry file="file://$PROJECT_DIR$/src/CommandValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CanvasController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1872,19 +1813,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/CommandValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="102" column="59" lean-forward="false" selection-start-line="102" selection-start-column="59" selection-end-line="102" selection-end-column="59" />
+        <state relative-caret-position="155">
+          <caret line="64" column="14" lean-forward="false" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/DrawCanvasTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

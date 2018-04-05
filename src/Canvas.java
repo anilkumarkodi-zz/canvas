@@ -1,7 +1,7 @@
 import exception.InValidInputException;
 import java.util.Arrays;
 
-public class Canvas {
+public class Canvas implements Operations {
   
   private final int canvasWidth;
   private final int canvasHeight;
@@ -13,6 +13,7 @@ public class Canvas {
     canvasArea = new String[canvasHeight][canvasWidth];
   }
   
+  @Override
   public String[][] create() throws InValidInputException {
     canvasArea = new String[canvasHeight][canvasWidth];
     prepare();
@@ -24,7 +25,8 @@ public class Canvas {
     drawColumnsForGivenRow(canvasWidth - 1, canvasStart, canvasHeight - 1, symbol);
     return canvasArea;
   }
-  
+
+  @Override
   public String[][] drawLine(int x1, int y1, int x2, int y2) throws InValidInputException {
     if (y1 == y2) {
       drawRows(y1, x1, x2 + 1, "*\t");
@@ -36,7 +38,8 @@ public class Canvas {
     
     return canvasArea;
   }
-  
+
+  @Override
   public String[][] drawRectangle(int x1, int y1, int x2, int y2) throws InValidInputException {
     if (x1 > x2 && y1 > y2) {
       throw new InValidInputException();
@@ -47,7 +50,8 @@ public class Canvas {
     drawColumnsForGivenRow(x2, y1, y2, "*\t");
     return canvasArea;
   }
-  
+
+  @Override
   public String[][] fillColour(int x, int y, String colour) {
     for (int i = 1; i < canvasWidth - 1; i++) {
       for (int j = 1; j < canvasHeight - 1; j++) {
@@ -77,6 +81,10 @@ public class Canvas {
     for (String[] canva : canvasArea) {
       Arrays.fill(canva, "\t");
     }
+  }
+
+  public String[][] getCanvasArea() {
+    return this.canvasArea;
   }
   
 }

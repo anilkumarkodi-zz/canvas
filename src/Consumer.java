@@ -5,7 +5,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Client {
+public class Consumer {
   
   public static void main(String[] args) throws IOException, InValidExpressionException, CanvasCreationException, InValidInputException {
     readCommand();
@@ -13,7 +13,7 @@ public class Client {
   
   private static void readCommand() throws IOException {
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-    final DrawCanvas drawCanvas = new DrawCanvas();
+    final CanvasController canvasController = new CanvasController();
     
     while (true) {
       System.out.println("Enter Command to Continue:");
@@ -22,7 +22,7 @@ public class Client {
         break;
       }
       try {
-        drawCanvas.draw(command);
+        canvasController.draw(command);
       } catch (InValidExpressionException e) {
         e.printStackTrace();
       } catch (CanvasCreationException e) {
@@ -30,7 +30,7 @@ public class Client {
       } catch (InValidInputException e) {
         e.printStackTrace();
       }
-      drawCanvas.printCanvas();
+      canvasController.printCanvas();
     }
     
   }
